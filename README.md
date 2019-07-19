@@ -5,24 +5,24 @@ DehazeNet keras+tensorflow version
 
 This version includes the generation of training set. The only thing you need to do is running the code. Note that this version only can be used for training DehazeNet. If you want to remove the haze of images, you should implement the testing codes and post-processing codes by youself. I believe it is easy.
 
-#### Requirements
+## Requirements
 
 ```py
-python 3.0
+python 3
 tensorflow
 keras
 opencv
 ```
 
-#### Download the codes
+## Download the codes
 git clone https://github.com/JiaheZhang/DehazeNet-keras
 
-#### Collect images
+## Collect images
 
 You should collect enough haze-free images for training. These images should be put into "./haze_free".
 
 
-#### Train
+## Train
 
 Run the codes by
 
